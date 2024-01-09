@@ -120,3 +120,7 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 9. **Testes unitários** - 5 horas
    - Testes de Widget: 3 horas
    - Testes de integração: 2 horas
+
+
+### TODO:
+- [] Atualizar as horas
