@@ -26,6 +26,7 @@ Para garantir que atendemos às suas expectativas, vamos abrir espaço para disc
 # 2. Panorama do Desenvolvimento Mobile (30 minutos)
 
 ## História e evolução do desenvolvimento mobile:
+- Mostrar [vídeo](https://youtu.be/jPsqInAxm6w?si=QCySoNRQXIclbURN)
 
 - Desde o surgimento dos primeiros dispositivos móveis até os smartphones modernos.
 - Destaque marcos importantes, como o lançamento do iPhone e do Android.

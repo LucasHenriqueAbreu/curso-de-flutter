@@ -60,67 +60,79 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 
 ## Plano de ensino
 
-## Avaliações e Apresentações
+## MÓDULO 1 - Dart Basics
 
-- **Avaliação 1** - 4 horas (2 horas para a prova e 2 horas para revisão/resolução)
-- **Avaliação 2** - 4 horas (2 horas para a prova e 2 horas para revisão/resolução)
-- **Apresentação de Trabalhos** - 6 horas (2 dias de apresentação, 3 horas cada dia)
+- DartPad: 5 minutos
+- Variáveis: 10 minutos
+- Tipos: 20 minutos
+- Funções: 30 minutos
+- Operadores: 15 minutos
+- Fluxos de controle: 30 minutos
+- Lambdas: 10 minutos
+- Streams: 50 minutos
+- Future: 30 minutos
+- Async / Await: 30 minutos
+- **TOTAL:** 230 minutos
 
-## Tópicos e Carga Horária
+## MÓDULO 2 - Configuração do ambiente de desenvolvimento
 
-1. **Dart Basics** - 15 horas
-   - DartPad: 1 hora
-   - Variáveis: 2 horas
-   - Tipos: 2 horas
-   - Funções: 3 horas
-   - Operadores: 2 horas
-   - Fluxos de controle: 2 horas
-   - Lambdas: 2 horas
-   - Streams: 1 hora
-   - Future: 1 hora
-   - Async / Await: 1 hora
+- Flutter CLI: 15 minutos
+- IDEs: 20 minutos
+- **TOTAL:** 35 minutos
 
-2. **Configuração do ambiente de desenvolvimento** - 5 horas
-   - Flutter CLI: 1 hora
-   - IDEs: 4 horas (divididas igualmente entre VSCode, Android Studio, IntelliJ IDEA)
+## MÓDULO 3 - Widgets
 
-3. **Widgets** - 15 horas
-   - Stateless Widgets: 4 horas
-   - Stateful Widgets: 4 horas
-   - Widgets de estilização: 3 horas
-   - Material Widgets e Cupertino Widgets: 4 horas
+- Stateless Widgets: 20 minutos
+- Stateful Widgets: 60 minutos
+- Widgets de estilização: 280 minutos
+- Material Widgets e Cupertino Widgets: 10 minutos
+- **TOTAL:** 360 minutos
 
-4. **Trabalhando com Assets** - 5 horas
-   - Fonts: 1 hora
-   - Imagens: 2 horas
-   - Outros tipos de arquivos: 2 horas
+## MÓDULO 4 - Gerenciamento de estado
 
-5. **Gerenciamento de dependências** - 3 horas
+- Change Notifier: 180 minutos
+- Value Notifier: 180 minutos
+- **TOTAL:** 360 minutos
 
-6. **Gerenciamento de estado** - 10 horas
-   - Change Notifier: 5 horas
-   - Value Notifier: 5 horas
+## MÓDULO 5 - Armazenamento
 
-7. **Armazenamento** - 15 horas
-   - SqLite: 3 horas
-     - Autenticação: 1 hora
-     - Storage: 1 hora
-     - Firestore: 1 hora
-   - Shared Preferences: 4 horas
-   - Firebase: 8 horas
-     - Autenticação: 2 horas
-     - Storage: 3 horas
-     - Firestore: 3 horas
+- SqLite: 180 minutos
+  - Autenticação: 180 minutos
+  - Storage: 180 minutos
+  - Firestore: 180 minutos
+- Shared Preferences: 180 minutos
+- Firebase: 180 minutos
+  - Autenticação: 360 minutos
+  - Storage: 180 minutos
+  - Firestore: 180 minutos
+- **TOTAL:** 1440 minutos
 
-8. **Consumindo APIs** - 7 horas
-   - RESTful APIs: 2 horas
-   - Web Sockets: 2 horas
-   - GraphQL: 3 horas
+## MÓDUO 6 - Consumindo APIs
 
-9. **Testes unitários** - 5 horas
-   - Testes de Widget: 3 horas
-   - Testes de integração: 2 horas
+- RESTful APIs: 360 minutos
+- Web Sockets: 360 minutos
+- GraphQL: 360 minutos
+- **TOTAL:** 720 minutos
+
+## MÓDULO 7 - Testes unitários
+
+- Testes de Widget: 360 minutos
+- Testes de integração: 360 minutos
+- **TOTAL:** 720 minutos
+
+### Avaliações
+
+- N1: 180 minutos
+- N2: 180 minutos
+- Trabalho 1 (apresentação): 360 minutos
+- Trabalho 2 (apresentação): 360 minutos
+- **Total:** 1080 minutos
 
 
-### TODO:
-- [] Atualizar as horas
+---
+
+**TOTAL HORAS GERAIS:** 90,08333333 horas
+
+---
+
+(Plano de ensino)[https://docs.google.com/spreadsheets/d/1QMAzEcupS8LrIReYBnktzxj3wKYVyM1YReKQYlOS9xY/edit?usp=sharing]
