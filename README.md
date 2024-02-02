@@ -97,11 +97,8 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 ## MÓDULO 5 - Armazenamento
 
 - SqLite: 180 minutos
-  - Autenticação: 180 minutos
-  - Storage: 180 minutos
-  - Firestore: 180 minutos
 - Shared Preferences: 180 minutos
-- Firebase: 180 minutos
+- Firebase
   - Autenticação: 360 minutos
   - Storage: 180 minutos
   - Firestore: 180 minutos
