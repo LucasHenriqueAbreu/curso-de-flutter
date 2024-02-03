@@ -72,6 +72,7 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 - Streams: 50 minutos
 - Future: 30 minutos
 - Async / Await: 30 minutos
+- Classes
 - **TOTAL:** 230 minutos
 
 ## MÓDULO 2 - Configuração do ambiente de desenvolvimento
@@ -106,8 +107,7 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 
 ## MÓDUO 6 - Consumindo APIs
 
-- RESTful APIs: 360 minutos
-- Web Sockets: 360 minutos
+- RESTful APIs: 360 minutos - Web Sockets: 360 minutos
 - GraphQL: 360 minutos
 - **TOTAL:** 720 minutos
 
