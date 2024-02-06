@@ -4,7 +4,7 @@ A disciplina de Computação Móvel com foco no SDK do Flutter oferece uma intro
 
 
 - [Dart Basics](dart-basics/README.md)
-  - [Conhecendo dart](dart-basics//README.md)
+  - [Conhecendo Dart](dart-basics/dart/README.md)
   - [Variáveis](dart-basics/variaveis/README.md)
   - [Tipos](dart-basics/tipos/README.md)
   - [Funções](dart-basics/funcoes/README.md)
