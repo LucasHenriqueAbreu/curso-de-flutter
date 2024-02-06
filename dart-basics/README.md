@@ -3,7 +3,7 @@
 O Dart é uma linguagem de programação de código aberto, de propósito geral e orientada a objetos com sintaxe no estilo C, desenvolvida pela Google em 2011. O objetivo da programação em Dart é criar interfaces de usuário frontend para aplicativos da web e móveis. Também pode ser usado para construir aplicativos de servidor e desktop.
 
 ## Sumário
-- [DartPad](dartpad/README.md)
+- [Conhecendo Dart](dart/README.md)
 - [Variáveis](variaveis/README.md)
 - [Tipos](tipos/README.md)
 - [Funções](funcoes/README.md)
