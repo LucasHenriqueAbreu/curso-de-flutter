@@ -50,11 +50,11 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Tipos](tipos/README.md)
 - [Funções](funcoes/README.md)
 - [Operadores](operadores/README.md)
-- [Fluxos de controle](fluxos-de-controle/README-de-controle.md)
+- [Fluxos de controle](fluxos-de-controle/README.md)
 - [Lambdas](lambdas/README.md)
 - [Streams](streams/README.md)
 - [Future](future/README.md)
-- [Async / Await](async-await/README-await.md)
+- [Async / Await](async-await/README.md)
 
 ## Extra:
 Visite os seguintes recursos para saber mais:
