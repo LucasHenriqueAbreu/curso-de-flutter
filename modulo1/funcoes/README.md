@@ -6,3 +6,5 @@ Dart é uma linguagem verdadeiramente orientada a objetos, então até mesmo fun
 Visite os seguintes recursos para saber mais:
 - [Funções](https://dart.dev/guides/language/language-tour#functions)
 - [Função em Dart](https://www.javatpoint.com/dart-function)
+- [Aula](aula/ROTEIRO.md)
+- [Exercícios](aula/EXERCICIOS.md)
