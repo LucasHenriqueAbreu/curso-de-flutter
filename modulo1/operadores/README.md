@@ -23,3 +23,5 @@ Esses operadores podem ser usados para realizar operações em valores, variáve
 Visite os seguintes recursos para saber mais:
 
 - [Operadores](https://dart.dev/guides/language/language-tour#operators)
+- [Aula](ROTEIRO.md)
+- [Exercícios](EXERCICIOS.md)
