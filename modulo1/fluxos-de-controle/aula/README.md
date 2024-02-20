@@ -100,5 +100,3 @@ for (int i = 0; i < 5; i++) {
   print("Número $i");
 }
 ```
-
-Este roteiro fornecerá uma compreensão abrangente das declarações de fluxo de controle em Dart, juntamente com exemplos práticos para ajudar na compreensão.
