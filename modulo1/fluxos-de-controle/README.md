@@ -18,4 +18,6 @@ Visite os seguintes recursos para saber mais:
 
 - [Declarações de fluxo de controle](https://dart.dev/guides/language/language-tour#control-flow-statements)
 - [Declarações de fluxo de controle em Dart](https://www.w3adda.com/dart-tutorial/dart-control-flow-statements)
-- [Ramos em Dart](https://dart.dev/language/branches)
+- [Branches em Dart](https://dart.dev/language/branches)
+- [Aula](aula/README.md)
+- [Exercícios](aula/exercicios/EXERCICIOS.md)

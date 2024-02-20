@@ -1,5 +1,3 @@
-Claro, vou criar um roteiro em Markdown com exemplos de código para cada tópico sobre funções em Dart:
-
 Aula sobre Funções em Dart
 ==========================
 
