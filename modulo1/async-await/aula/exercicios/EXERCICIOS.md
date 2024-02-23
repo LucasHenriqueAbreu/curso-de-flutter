@@ -1,25 +1,20 @@
-# Exercícios sobre Async e Await em Dart
+# Exercícios de Futures em Dart com async/await
 
-1. **Operações Assíncronas Simples:**
-   - Escreva uma função assíncrona que simule uma operação demorada, como aguardar 3 segundos antes de retornar um valor.
-   - Utilize a palavra-chave `await` para aguardar o término da operação e retorne o resultado.
+1. **Leitura de Arquivo com async/await:**
+   - Escreva uma função que receba o caminho de um arquivo como entrada e utilize `async` e `await` para retornar o conteúdo do arquivo em um Future.
+   - Crie um programa que utilize essa função para ler o conteúdo de um arquivo e o exiba na tela.
 
-2. **Tratamento de Erros:**
-   - Modifique a função anterior para lançar uma exceção após um certo período de tempo, simulando um erro.
-   - Utilize um bloco try-catch para capturar e lidar com a exceção lançada pela operação assíncrona.
+2. **Requisição HTTP Assíncrona com async/await:**
+   - Faça uma requisição HTTP assíncrona para uma API pública (por exemplo, a API do GitHub) usando a biblioteca http e utilize `async` e `await` para aguardar a resposta.
+   - Exiba na tela o resultado da requisição, como o título de um repositório ou uma lista de commits.
 
-3. **Combinando Múltiplas Operações:**
-   - Escreva duas funções assíncronas que realizam operações demoradas diferentes, como aguardar 2 e 3 segundos, respectivamente.
-   - Crie uma terceira função que combine essas duas operações e as execute sequencialmente, aguardando o término de uma antes de iniciar a outra.
+4. **Combinando Múltiplos Futures com async/await:**
+   - Escreva uma função que realize duas tarefas assíncronas diferentes, como ler o conteúdo de dois arquivos, utilizando `async` e `await`.
+   - Combine esses Futures utilizando `Future.wait` e exiba na tela os resultados de ambas as tarefas quando estiverem completas.
 
-4. **Operações Assíncronas em Paralelo:**
-   - Utilize as duas funções do exercício anterior e execute as operações demoradas em paralelo, utilizando `Future.wait`.
-   - Exiba na tela os resultados das duas operações após ambas serem concluídas.
+5. **Tratamento de Erros com async/await:**
+   - Modifique uma das funções anteriores para simular um erro, como tentar ler um arquivo que não existe, e utilize `try-catch` com `async` e `await` para lidar com o erro e exibir uma mensagem adequada na tela.
 
-5. **Conversão de Código Síncrono para Assíncrono:**
-   - Escolha uma função síncrona existente em seu código e converta-a para uma função assíncrona.
-   - Utilize a palavra-chave `await` quando necessário para aguardar o resultado de operações assíncronas.
-
-6. **Operações Assíncronas em Loop:**
-   - Escreva um programa que execute uma operação assíncrona em um loop, como fazer uma requisição HTTP a cada segundo.
-   - Utilize um loop assíncrono com `await Future.delayed(Duration(seconds: 1))` para aguardar um segundo entre cada iteração do loop.
+6. **Temporizador Assíncrono com async/await:**
+   - Escreva uma função que retorne um Future após um determinado intervalo de tempo, como um temporizador assíncrono, utilizando `async` e `await`.
+   - Utilize essa função para criar um programa que exiba uma mensagem após um certo tempo de espera.
