@@ -8,10 +8,6 @@
    - Faça uma requisição HTTP assíncrona para uma API pública (por exemplo, a API do GitHub) usando a biblioteca http.
    - Exiba na tela o resultado da requisição, como o título de um repositório ou uma lista de commits.
 
-3. **Operações Matemáticas Assíncronas:**
-   - Escreva uma função que realize uma operação matemática complexa, como calcular o fatorial de um número grande, de forma assíncrona.
-   - Crie um programa que utilize essa função para calcular o fatorial de um número e exiba o resultado.
-
 4. **Combinando Múltiplos Futures:**
    - Escreva uma função que realize duas tarefas assíncronas diferentes, como ler o conteúdo de dois arquivos.
    - Combine esses Futures usando `Future.wait` e exiba na tela os resultados de ambas as tarefas quando estiverem completas.

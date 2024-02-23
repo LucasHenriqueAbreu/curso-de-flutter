@@ -1,11 +1,13 @@
-import 'dart:io';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 void main() {
-  var httpClient = HttpClient();
-  httpClient
-      .getUrl(Uri.parse('https://api.chucknorris.io/jokes/random'))
-      .then((request) => request.close())
-      .then((response) {
-    print(response);
-  });
+  http.get(Uri.parse('https://api.chucknorris.io/jokes/random'))
+    .then((resposta) {
+      Map<String, dynamic> jsonObject = json.decode(resposta.body);
+      print('Resposta da requisição: ${jsonObject['value']}');
+    })
+    .catchError((erro) {
+      print('Erro ao fazer a requisição: $erro');
+    });
 }
