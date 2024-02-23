@@ -2,7 +2,7 @@
 
 Nesta aula, exploraremos os conceitos de async e await em Dart. Essas palavras-chave são fundamentais para lidar com programação assíncrona de forma mais legível e organizada. Vamos entender como usar async e await para escrever código assíncrono de maneira síncrona, facilitando a compreensão e a manutenção do código.
 
-## Breve Descrição
+## Descrição
 
 O Dart suporta programação assíncrona usando as palavras-chave `async` e `await`. Essas palavras-chave permitem que você escreva código assíncrono de forma síncrona, o que torna mais fácil trabalhar com operações demoradas, como solicitações de rede e acesso a bancos de dados.
 
