@@ -98,63 +98,92 @@ void main() async {
 ```
 
 ## 5. Por que usar async e await
-Imagine que você precisa buscar informações sobre um usuário a partir de seu ID. Para isso, você precisa:
+Aplicativo de Cálculo de Frete
 
-- Buscar o nome do usuário usando o ID.
-- Buscar o email do usuário usando o nome.
-- Buscar a cidade do usuário usando o email.
+Você foi contratado para desenvolver um aplicativo em Dart que permite aos usuários calcular o frete com base em um CEP fornecido. O aplicativo deve seguir o seguinte fluxo de operações:
+
+1. O usuário insere um CEP no aplicativo.
+2. O aplicativo faz uma chamada assíncrona para uma API de busca de endereço utilizando o CEP fornecido.
+3. Após receber o endereço correspondente ao CEP, o aplicativo faz uma chamada assíncrona para calcular o frete com base na cidade do endereço.
+4. O valor do frete é exibido ao usuário.
 
 ```dart
 ///Callback hell:
 
-void main() {
-  buscarUsuarioPorId(10).then((usuario) {
-    print("Nome: ${usuario}");
-    buscarEmailPorNome(usuario.nome).then((email) {
-      print("Email: ${email}");
-      buscarCidadePorEmail(email).then((cidade) {
-        print("Cidade: ${cidade}");
-      });
-    });
+import 'dart:async';
+
+// Simulando uma API para busca de endereço pelo CEP
+Future<String> buscarEnderecoPorCEP(String cep) {
+  return Future.delayed(Duration(seconds: 1), () {
+    // Simula a busca do endereço pelo CEP
+    return "Rua Exemplo, 123 - Bairro Exemplo, Cidade Exemplo";
   });
 }
 
-Future<String> buscarUsuarioPorId(int id) {
-  // ...
+// Simulando uma função para calcular o frete a partir da cidade
+Future<double> calcularFrete(String cidade) {
+  return Future.delayed(Duration(seconds: 1), () {
+    // Simula o cálculo do frete a partir da cidade
+    // Suponha que o frete seja calculado com base em alguma tabela no banco de dados
+    if (cidade == "Cidade Exemplo") {
+      return 15.0; // Valor do frete para a cidade exemplo
+    } else {
+      return 20.0; // Valor do frete padrão para outras cidades
+    }
+  });
 }
 
-Future<String> buscarEmailPorNome(String nome) {
-  // ...
+void main() {
+  // Simulando o uso das funções assíncronas encadeadas
+  buscarEnderecoPorCEP("12345678").then((endereco) {
+    print("Endereço encontrado: $endereco");
+    return calcularFrete("Cidade Exemplo");
+  }).then((frete) {
+    print("Frete calculado: R\$$frete");
+  }).catchError((error) {
+    print("Erro: $error");
+  });
 }
 
-Future<String> buscarCidadePorEmail(String email) {
-  // ...
-}
-
-
-/// Usando async e await
-void main() async {
-  var usuario = await buscarUsuarioPorId(10);
-  print("Nome: ${usuario.nome}");
-  var email = await buscarEmailPorNome(usuario.nome);
-  print("Email: ${email}");
-  var cidade = await buscarCidadePorEmail(email);
-  print("Cidade: ${cidade}");
-}
-
-Future<Usuario> buscarUsuarioPorId(int id) {
-  // ...
-}
-
-Future<String> buscarEmailPorNome(String nome) {
-  // ...
-}
-
-Future<String> buscarCidadePorEmail(String email) {
-  // ...
-}
 ```
 
+```dart
+// Usando async e await.
+import 'dart:async';
+
+// Simulando uma API para busca de endereço pelo CEP
+Future<String> buscarEnderecoPorCEP(String cep) async {
+  await Future.delayed(Duration(seconds: 1));
+  // Simula a busca do endereço pelo CEP
+  return "Rua Exemplo, 123 - Bairro Exemplo, Cidade Exemplo";
+}
+
+// Simulando uma função para calcular o frete a partir da cidade
+Future<double> calcularFrete(String cidade) async {
+  await Future.delayed(Duration(seconds: 1));
+  // Simula o cálculo do frete a partir da cidade
+  // Suponha que o frete seja calculado com base em alguma tabela no banco de dados
+  if (cidade == "Cidade Exemplo") {
+    return 15.0; // Valor do frete para a cidade exemplo
+  } else {
+    return 20.0; // Valor do frete padrão para outras cidades
+  }
+}
+
+void main() async {
+  try {
+    // Simulando o uso das funções assíncronas encadeadas com async/await
+    String endereco = await buscarEnderecoPorCEP("12345678");
+    print("Endereço encontrado: $endereco");
+
+    double frete = await calcularFrete("Cidade Exemplo");
+    print("Frete calculado: R\$$frete");
+  } catch (error) {
+    print("Erro: $error");
+  }
+}
+
+```
 Observe como o código fica mais legível e organizado com o uso de async/await.
 
 Vantagens de usar async/await:

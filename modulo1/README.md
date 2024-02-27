@@ -22,17 +22,17 @@ Neste módulo, vamos explorar os conceitos fundamentais da linguagem de programa
 ### 6. **Fluxos de Controle:**
    Vamos aprender sobre estruturas de controle de fluxo, como if-else, switch-case e loops, e como usá-las em Dart.
 
-### 7. **Lambdas:**
-   Vamos explorar o conceito de lambdas em Dart e como eles podem ser usados para criar funções de forma concisa e expressiva.
-
-### 8. **Streams:**
+### 7. **Streams:**
    Vamos entender o conceito de streams em Dart e como usá-los para trabalhar com fluxos de dados assíncronos.
 
-### 9. **Future:**
+### 8. **Future:**
    Vamos aprender sobre Futures em Dart e como usá-los para trabalhar com operações assíncronas e retorno de dados no futuro.
 
-### 10. **Async / Await:**
+### 9. **Async / Await:**
    Vamos estudar o uso de async / await em Dart para escrever código assíncrono de forma mais clara e concisa.
+
+### 10. **Lambdas:**
+   Vamos explorar o conceito de lambdas em Dart e como eles podem ser usados para criar funções de forma concisa e expressiva.
 
 ## O que vamos alcançar?
 
@@ -54,6 +54,7 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Future](future/README.md)
 - [Async / Await](async-await/README.md)
 - [Streams](streams/README.md)
+- [Lambdas](labdas/README.md)
 
 ## Extra:
 Visite os seguintes recursos para saber mais:
