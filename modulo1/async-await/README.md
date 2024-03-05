@@ -13,3 +13,4 @@ Saiba mais nos seguintes recursos:
 - [Widgets assíncronos](https://docs.flutter.dev/development/ui/widgets/async)
 - [Aula](aula/README.md)
 - [Exercícios](aula/exercicios/EXERCICIOS.md)
+- [Projeto de revisao](aula/projeto-biblioteca/README.md)
