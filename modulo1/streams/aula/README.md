@@ -71,6 +71,7 @@ Stream<int> numerosAssincronos(int quantidade) async* {
 3. **Filtrando e Transformando Dados de um Stream**
 
 ```dart
+// Examplo da filtro (condição) em uma stream
 import 'dart:async';
 
 void main() {
@@ -80,6 +81,21 @@ void main() {
   // Filtrando os números pares e imprimindo-os
   numerosStream
       .where((numero) => numero % 2 == 0)
+      .listen((numero) => print(numero));
+}
+```
+
+```dart
+/// Exemplo de transformação de dados em streams
+import 'dart:async';
+
+void main() {
+  // Criando um Stream que emite uma sequência de números inteiros
+  Stream<int> numerosStream = Stream<int>.fromIterable([1, 2, 3, 4, 5]);
+
+  // Transformando os números dobrando seu valor e imprimindo-os
+  numerosStream
+      .map((numero) => numero * 2)
       .listen((numero) => print(numero));
 }
 ```

@@ -53,8 +53,8 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Fluxos de controle](fluxos-de-controle/README.md)
 - [Future](future/README.md)
 - [Async / Await](async-await/README.md)
-- [Streams](streams/README.md)
 - [Lambdas](labdas/README.md)
+- [Streams](streams/README.md)
 
 ## Extra:
 Visite os seguintes recursos para saber mais:
