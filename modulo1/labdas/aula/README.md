@@ -97,6 +97,4 @@ void main() {
 }
 ```
 
-### 6. Discussão e Conclusão
 
-Revisão dos conceitos abordados na aula. Oportunidade para os alunos compartilharem suas soluções para o exercício prático. Resumo dos principais pontos e conclusão da aula.
