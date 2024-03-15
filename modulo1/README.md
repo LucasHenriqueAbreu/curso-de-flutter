@@ -22,25 +22,28 @@ Neste módulo, vamos explorar os conceitos fundamentais da linguagem de programa
 ### 6. **Fluxos de Controle:**
    Vamos aprender sobre estruturas de controle de fluxo, como if-else, switch-case e loops, e como usá-las em Dart.
 
-### 7. **Streams:**
-   Vamos entender o conceito de streams em Dart e como usá-los para trabalhar com fluxos de dados assíncronos.
-
-### 8. **Future:**
+### 7. **Future:**
    Vamos aprender sobre Futures em Dart e como usá-los para trabalhar com operações assíncronas e retorno de dados no futuro.
 
-### 9. **Async / Await:**
+### 8. **Async / Await:**
    Vamos estudar o uso de async / await em Dart para escrever código assíncrono de forma mais clara e concisa.
 
-### 10. **Lambdas:**
+### 9. **Lambdas:**
    Vamos explorar o conceito de lambdas em Dart e como eles podem ser usados para criar funções de forma concisa e expressiva.
+
+### 10. **Classes:**
+   Vamos explorar o conceito de Classes em Dart e como eles podem ser usados para criar instâncias de objetos.
+
+### 11. **Streams:**
+   Vamos entender o conceito de streams em Dart e como usá-los para trabalhar com fluxos de dados assíncronos.
 
 ## O que vamos alcançar?
 
 1. **Dominar os Conceitos Básicos:** Vamos sair deste módulo com um entendimento sólido dos conceitos básicos da linguagem Dart, preparando-nos para escrever código eficaz e eficiente.
 
-2. **Construir uma Base Sólida:** Este módulo estabelecerá uma base sólida para o nosso aprendizado contínuo de Dart e Flutter, permitindo-nos avançar com confiança em projetos futuros.
+1. **Construir uma Base Sólida:** Este módulo estabelecerá uma base sólida para o nosso aprendizado contínuo de Dart e Flutter, permitindo-nos avançar com confiança em projetos futuros.
 
-3. **Explorar Recursos Avançados:** Com uma compreensão sólida dos conceitos básicos, estaremos prontos para explorar recursos mais avançados de Dart e Flutter em módulos futuros.
+2. **Explorar Recursos Avançados:** Com uma compreensão sólida dos conceitos básicos, estaremos prontos para explorar recursos mais avançados de Dart e Flutter em módulos futuros.
 
 Vamos começar explorando os conceitos básicos do Dart e construir uma base sólida para nosso futuro como desenvolvedores de aplicativos móveis!
 
@@ -54,6 +57,7 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Future](future/README.md)
 - [Async / Await](async-await/README.md)
 - [Lambdas](labdas/README.md)
+- [Classes](classes/README.md)
 - [Streams](streams/README.md)
 
 ## Extra:
