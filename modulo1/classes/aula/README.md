@@ -128,4 +128,4 @@ Ao final deste roteiro, espera-se que você seja capaz de:
 ## Conclusão
 Nesta aula, exploramos os conceitos básicos de classes em Dart, aprendemos como criar e usar classes, bem como entender as diferenças e semelhanças com outras linguagens de programação orientada a objetos. Continuar praticando e explorando mais recursos é essencial para aprofundar o conhecimento em Dart e programação orientada a objetos de forma geral.
 
-- [Exercícios](aula/exercicios/EXERCICIOS.md)
+- [Exercícios](exercicios/EXERCICIOS.md)
