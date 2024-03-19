@@ -1,23 +1,17 @@
-### Exercícios sobre Streams
+### Exercício: Criando um Chat Simples com Streams
 
-1. **Criar um Stream de Números Pares:**
-   - Escreva uma função que retorne um Stream de números pares até um determinado limite.
-   - Crie um programa que utilize essa função para imprimir os números pares até 10.
+#### Descrição:
+Você foi encarregado de desenvolver um programa que simula um chat entre várias pessoas. Cada pessoa será representada por um objeto na linguagem Dart, e todas as mensagens enviadas pelos participantes serão exibidas em tempo real na tela.
 
-2. **Transformar um Stream de String para Uppercase:**
-   - Escreva uma função que receba um Stream de String como entrada e retorne um novo Stream com todas as strings em maiúsculas.
-   - Crie um programa que utilize essa função para imprimir as strings em maiúsculas de um Stream de entrada.
+#### Tarefas:
+1. Crie uma classe `Chat` que será responsável por gerenciar o fluxo de mensagens do chat.
+2. Implemente um método `enviarMensagem(String mensagem, String nome)` na classe `Chat` para que os participantes possam enviar mensagens para o chat.
+3. Use um `StreamController` dentro da classe `Chat` para gerenciar o fluxo de mensagens. Certifique-se de usar um `StreamController` do tipo `broadcast` para que várias pessoas possam se inscrever para receber mensagens.
+4. Cada mensagem enviada deve incluir o nome do remetente para que seja fácil identificar quem enviou a mensagem.
+5. Crie várias instâncias da classe `Chat` para representar diferentes chats entre grupos de pessoas.
+6. Envie algumas mensagens de exemplo para cada chat criado.
+7. Consuma o stream de mensagens de cada chat e exiba as mensagens recebidas na tela.
 
-3. **Filtrar um Stream de Números:**
-   - Escreva uma função que receba um Stream de inteiros como entrada e retorne um novo Stream contendo apenas os números maiores que 5.
-   - Crie um programa que utilize essa função para imprimir apenas os números maiores que 5 de um Stream de entrada.
-
-4. **Combinar Dois Streams:**
-   - Escreva uma função que receba dois Streams de inteiros como entrada e retorne um novo Stream contendo a combinação dos números dos dois Streams.
-   - Crie um programa que utilize essa função para imprimir a combinação dos números de dois Streams de entrada.
-
-5. **Contagem de Eventos em um Stream:**
-   - Escreva uma função que receba um Stream de eventos como entrada e retorne um Future com o número total de eventos recebidos após um determinado tempo.
-   - Crie um programa que utilize essa função para contar o número de eventos recebidos em um Stream de entrada após 5 segundos.
-
-Estes exercícios ajudarão a praticar a criação, transformação, filtragem e combinação de Streams em Dart.
+#### Observações:
+- Certifique-se de que as mensagens sejam exibidas na tela assim que forem enviadas por qualquer participante do chat.
+- Você pode adicionar funcionalidades extras, como timestamps nas mensagens ou cores diferentes para cada participante, se desejar.

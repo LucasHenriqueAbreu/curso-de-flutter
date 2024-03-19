@@ -1,7 +1,7 @@
 # Exercícios
 
 1. Definição de Classes
-   - Crie uma classe chamada `Carro` sem atributos ou métodos.
+   - Crie uma classe chamada `Carro`.
 2. Criação de Instâncias
    - Instancie a classe `Carro` em uma variável chamada `carro`.
 3. Criação de Atributos
@@ -22,3 +22,5 @@
    - Crie uma classe chamada `Motor` com um atributo `potencia` e um método `ligar()`.
    - Modifique a classe `Carro` para conter um objeto da classe `Motor` como parte de sua composição.
    - Implemente um método na classe `Carro` chamado `ligarCarro()` que delega a ação de ligar para o método `ligar()` do objeto `Motor`.
+
+- [Gabarito](GABARITO.md)
