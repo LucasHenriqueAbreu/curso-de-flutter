@@ -60,6 +60,11 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Classes](classes/README.md)
 - [Streams](streams/README.md)
 
+## Trabalho do módulo
+### Análise Financeira em Dart
+Neste trabalho prático, você será desafiado a criar um programa em Dart para realizar análise financeira com base em dados de receitas e despesas da empresa. Seu programa deverá ler os dados financeiros de arquivos de texto, calcular totais e gerar um relatório consolidado.
+[Mais informações](trabalho/README.md)
+
 ## Extra:
 Visite os seguintes recursos para saber mais:
 
