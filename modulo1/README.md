@@ -65,6 +65,13 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 Neste trabalho prático, você será desafiado a criar um programa em Dart para realizar análise financeira com base em dados de receitas e despesas da empresa. Seu programa deverá ler os dados financeiros de arquivos de texto, calcular totais e gerar um relatório consolidado.
 [Mais informações](trabalho/README.md)
 
+## Atividade de revisão
+
+## Projeto de Cálculo de Média de Alunos
+Desenvolver um pequeno aplicativo em Dart que calcula a média de notas dos alunos.
+[Mais informações](revisao/README.md)
+
+
 ## Extra:
 Visite os seguintes recursos para saber mais:
 
