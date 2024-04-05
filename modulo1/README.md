@@ -66,9 +66,7 @@ Neste trabalho prático, você será desafiado a criar um programa em Dart para 
 [Mais informações](trabalho/README.md)
 
 ## Atividade de revisão
-[Mais informações](revisao/README.md)
-
-## Projeto de Cálculo de Média de Alunos
+### Projeto de Cálculo de Média de Alunos
 Desenvolver um pequeno aplicativo em Dart que calcula a média de notas dos alunos.
 [Mais informações](revisao/README.md)
 
