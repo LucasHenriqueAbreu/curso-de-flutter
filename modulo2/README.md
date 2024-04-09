@@ -1,4 +1,4 @@
-# Bem-vindos ao Módulo de Configuração do Ambiente de Desenvolvimento!
+# Bem-vindos ao Módulo 2!
 
 Neste módulo, vamos explorar as ferramentas e configurações essenciais para iniciar nossa jornada no desenvolvimento de aplicativos móveis com Flutter. Vamos aprender a configurar o ambiente de desenvolvimento e a escolher a IDE mais adequada para nossas necessidades individuais.
 
@@ -30,8 +30,6 @@ Neste módulo, vamos explorar as ferramentas e configurações essenciais para i
 Vamos começar a configurar nosso ambiente e nos preparar para criar aplicativos móveis incríveis com Flutter!
 
 ## Sumário
+- [Configuração do Ambiente de Desenvolvimento](ambiente/README.md)
 - [Flutter CLI](flutter-cli/README.md)
 - [IDEs](ides/README.md)
-  - [VSCode](vscode/README.md)
-  - [Android Studio](android-studio/README.md)
-  - [IntelliJ IDEA](intellij-idea/README.md)
