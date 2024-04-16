@@ -2,7 +2,7 @@
 import 'dart:math';
 import 'dart:async';
 
-StreamController<String> controller = StreamController<String>();
+StreamController<String> controller = StreamController<String>.broadcast();
 
 Stream<String> getMessages() {
   return controller.stream;
@@ -18,7 +18,11 @@ void close() {
 
 void main() async {
   getMessages().listen((message) {
-    print('Nova mensagem recebida: $message');
+    print('Nova mensagem recebida1: $message');
+  });
+  
+  getMessages().listen((message) {
+    print('Nova mensagem recebida2: $message');
   });
 
   final List<String> mensagens = [

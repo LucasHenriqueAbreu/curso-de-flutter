@@ -40,6 +40,7 @@ Vamos mergulhar no mundo dos Widgets e transformar nossas ideias em realidade!
 
 ## Sumário
 - [Widgets](widgets/README.md)
+- [TODO List](todolist/README.MD)
 <!-- TODO: em produção- [Widgets de estilização](widgets-de-estilizacao/README.md)
 - [Material Widgets e Cupertino Widgets](material-cupertino-widgets/README.md)
 - [Fonts](fonts/README.md)

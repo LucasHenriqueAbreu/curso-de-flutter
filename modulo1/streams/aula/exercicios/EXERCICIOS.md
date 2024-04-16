@@ -1,7 +1,7 @@
 ### Exercício: Criando um Chat Simples com Streams
 
 #### Descrição:
-Você foi encarregado de desenvolver um programa que simula um chat entre várias pessoas. Cada pessoa será representada por um objeto na linguagem Dart, e todas as mensagens enviadas pelos participantes serão exibidas em tempo real na tela.
+Você foi encarregado de desenvolver um programa que simula um chat entre várias pessoas. Cada pessoa será representada pelo seu nome, e todas as mensagens enviadas pelos participantes serão exibidas em tempo real na tela.
 
 #### Tarefas:
 1. Crie uma classe `Chat` que será responsável por gerenciar o fluxo de mensagens do chat.
