@@ -30,3 +30,9 @@ Vamos começar a aprender como tornar nossos aplicativos mais dinâmicos e inter
 - [Entendendo gerenciamento de estado](entendendo-gerenciamento-de-estado/README.md)
 - [Change Notifier](modulo4/change-notifier/README.md)
 - [Value Notifier](value-notifier/README.md)
+
+## Trabalho
+
+Neste trabalho vamos o clássico Jogo da Velha (ou Tic-Tac-Toe). O jogo deverá ser jogado por duas pessoas, alternando as jogadas entre os jogadores, sem necessidade de interação com a máquina.
+
+[Mais informações](trabalho/README.md)
