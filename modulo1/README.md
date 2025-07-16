@@ -22,20 +22,27 @@ Neste módulo, vamos explorar os conceitos fundamentais da linguagem de programa
 ### 6. **Fluxos de Controle:**
    Vamos aprender sobre estruturas de controle de fluxo, como if-else, switch-case e loops, e como usá-las em Dart.
 
-### 7. **Future:**
-   Vamos aprender sobre Futures em Dart e como usá-los para trabalhar com operações assíncronas e retorno de dados no futuro.
+### 7. **Classes:**
+   Vamos explorar o conceito de Classes em Dart e como elas são usadas para estruturar dados e comportamentos.
 
-### 8. **Async / Await:**
-   Vamos estudar o uso de async / await em Dart para escrever código assíncrono de forma mais clara e concisa.
+### 8. **Revisão de Programação Orientada a Objetos:**
+   Vamos revisar os quatro pilares da programação orientada a objetos:
+   - Herança
+   - Encapsulamento
+   - Polimorfismo
+   - Abstração
 
 ### 9. **Lambdas:**
    Vamos explorar o conceito de lambdas em Dart e como eles podem ser usados para criar funções de forma concisa e expressiva.
 
-### 10. **Classes:**
-   Vamos explorar o conceito de Classes em Dart e como eles podem ser usados para criar instâncias de objetos.
-
-### 11. **Streams:**
+### 10. **Streams:**
    Vamos entender o conceito de streams em Dart e como usá-los para trabalhar com fluxos de dados assíncronos.
+
+### 11. **Future:**
+   Vamos aprender sobre Futures em Dart e como usá-los para trabalhar com operações assíncronas e retorno de dados no futuro.
+
+### 12. **Async / Await:**
+   Vamos estudar o uso de async / await em Dart para escrever código assíncrono de forma mais clara e concisa.
 
 ## O que vamos alcançar?
 
@@ -54,11 +61,12 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
 - [Funções](funcoes/README.md)
 - [Operadores](operadores/README.md)
 - [Fluxos de controle](fluxos-de-controle/README.md)
+- [Classes](classes/README.md)
+- [POO](poo/README.md)
+- [Lambdas](labdas/README.md)
+- [Streams](streams/README.md)
 - [Future](future/README.md)
 - [Async / Await](async-await/README.md)
-- [Lambdas](labdas/README.md)
-- [Classes](classes/README.md)
-- [Streams](streams/README.md)
 
 ## Trabalho do módulo
 ### Análise Financeira em Dart
@@ -80,4 +88,3 @@ Visite os seguintes recursos para saber mais:
 - [Sobre o Dart](https://flutterbyexample.com/lesson/about-dart)
 - [O que é Dart?](https://www.youtube.com/watch?v=sOSd6G1qXoY)
 - [Dart em 100 Segundos](https://www.youtube.com/watch?v=NrO0CJCbYLA)
-

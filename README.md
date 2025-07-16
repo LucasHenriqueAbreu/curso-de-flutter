@@ -41,18 +41,23 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
 
 ### MÓDULO 1 - Dart Basics
 
-- DartPad: 5 minutos
+- Conhecendo Dart: 10 minutos
 - Variáveis: 10 minutos
 - Tipos: 20 minutos
 - Funções: 30 minutos
 - Operadores: 15 minutos
 - Fluxos de controle: 30 minutos
+- Classes: 40 minutos
+- Revisão de POO: (120 minutos)
+  - Herança
+  - Encapsulamento
+  - Polimorfismo
+  - Abstração
 - Lambdas: 10 minutos
 - Streams: 50 minutos
 - Future: 30 minutos
 - Async / Await: 30 minutos
-- Classes
-- **TOTAL:** 230 minutos
+- **TOTAL:** 275 minutos
 
 ### MÓDULO 2 - Configuração do ambiente de desenvolvimento
 
