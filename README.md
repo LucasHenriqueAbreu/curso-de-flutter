@@ -1,4 +1,4 @@
-# Disciplina: Computação móvel com Flutter
+# Disciplina: Programação para Aplicações e Dispositivos Móveis
 
 ## Descrição:
 
@@ -107,8 +107,6 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
 
 ---
 
-**TOTAL HORAS GERAIS:** 90,08333333 horas
+**TOTAL HORAS GERAIS:** 90 horas
 
 ---
-
-(Plano de ensino)[https://docs.google.com/spreadsheets/d/1QMAzEcupS8LrIReYBnktzxj3wKYVyM1YReKQYlOS9xY/edit?usp=sharing]
