@@ -22,4 +22,3 @@ Dart possui um sistema de tipagem estática opcional, o que significa que as var
 - [Aula](./aula/README.md)
 - [Slides](./aula/presenter.md)
 - [Exercícios](./exercicios/README.md)
-- [Exemplos de Sala de Aula](./exemplos/README.md)

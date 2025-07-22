@@ -7,6 +7,12 @@ No Flutter, as variáveis são usadas para armazenar valores. Existem dois tipos
 
 Variáveis no Flutter podem armazenar valores de diferentes tipos de dados, como números, strings, booleanos e mais.
 
+## Conteúdos Relacionados
+
+- [Aula](./aula/README.md)
+- [Slides](./aula/presenter.md)
+- [Exercícios](./exercicios/README.md)
+
 ## Extras
 Visite os seguintes recursos para saber mais:
 

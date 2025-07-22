@@ -11,6 +11,13 @@ Existem vários tipos de dados embutidos, incluindo:
 
 Além disso, existem outros tipos de dados complexos como dynamic, var e Object na linguagem de programação Dart, que é usada no Flutter.
 
+## Conteúdos Relacionados
+
+- [Aula](./aula/README.md)
+- [Exercícios](./exercicios/README.md)
+  - [Gabarito](./exercicios/gabarito.dart)
+
+
 ## Extras
 Visite os seguintes recursos para saber mais:
 
