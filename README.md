@@ -28,20 +28,12 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
 
 5. **Habilidades de Teste e Garantia de Qualidade:** Vocês aprenderão a escrever testes de unidade eficazes para garantir a qualidade e a confiabilidade dos seus aplicativos, proporcionando uma experiência impecável aos usuários.
 
-## Sumário
-- [Dart Basics](modulo1/README.md)
-- [Configuração do ambiente de desenvolvimento](modulo2/README.md)
-- [Widgets](modulo3/README.md)
-- [Gerenciamento de estado](modulo4/README.md)
-- [Armazenamento](modulo5/README.md)
-- [Consumindo APIS](modulo6/README.md)
-- [Testes unitários](modulo7/README.md)
-
 ## Plano de ensino
 
-### MÓDULO 1 - Dart Basics
+### [MÓDULO 1 - Dart Basics](modulo1/README.md)
 
-- Conhecendo Dart: 10 minutos
+- Universo da Programação Mobile: 15 minutos
+- Conhecendo Dart: 30 minutos
 - Variáveis: 10 minutos
 - Tipos: 20 minutos
 - Funções: 30 minutos
@@ -57,15 +49,15 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
 - Streams: 50 minutos
 - Future: 30 minutos
 - Async / Await: 30 minutos
-- **TOTAL:** 275 minutos
+- **TOTAL:** 290 minutos
 
-### MÓDULO 2 - Configuração do ambiente de desenvolvimento
+### [MÓDULO 2 - Configuração do ambiente de desenvolvimento](modulo2/README.md)
 
 - Flutter CLI: 15 minutos
 - IDEs: 20 minutos
 - **TOTAL:** 35 minutos
 
-### MÓDULO 3 - Widgets
+### [MÓDULO 3 - Widgets](modulo3/README.md)
 
 - Stateless Widgets: 20 minutos
 - Stateful Widgets: 60 minutos
@@ -73,13 +65,13 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
 - Material Widgets e Cupertino Widgets: 10 minutos
 - **TOTAL:** 360 minutos
 
-### MÓDULO 4 - Gerenciamento de estado
+### [MÓDULO 4 - Gerenciamento de estado](modulo4/README.md)
 
 - Change Notifier: 180 minutos
 - Value Notifier: 180 minutos
 - **TOTAL:** 360 minutos
 
-### MÓDULO 5 - Armazenamento
+### [MÓDULO 5 - Armazenamento](modulo5/README.md)
 
 - SqLite: 180 minutos
 - Shared Preferences: 180 minutos
@@ -89,13 +81,13 @@ Bem-vindos à disciplina de Desenvolvimento de Aplicativos Móveis com Flutter! 
   - Firestore: 180 minutos
 - **TOTAL:** 1440 minutos
 
-### MÓDUO 6 - Consumindo APIs
+### [MÓDULO 6 - Consumindo APIs](modulo6/README.md)
 
 - RESTful APIs: 360 minutos - Web Sockets: 360 minutos
 - GraphQL: 360 minutos
 - **TOTAL:** 720 minutos
 
-### MÓDULO 7 - Testes unitários
+### [MÓDULO 7 - Testes unitários](modulo7/README.md)
 
 - Testes de Widget: 360 minutos
 - Testes de integração: 360 minutos
