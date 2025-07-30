@@ -12,6 +12,7 @@ Variáveis no Flutter podem armazenar valores de diferentes tipos de dados, como
 - [Aula](./aula/README.md)
 - [Slides](./aula/presenter.md)
 - [Exercícios](./exercicios/README.md)
+- [Exemplos](./exemplos/README.md)
 
 ## Extras
 Visite os seguintes recursos para saber mais:
