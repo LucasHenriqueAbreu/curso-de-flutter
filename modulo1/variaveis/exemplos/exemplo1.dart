@@ -1,3 +1,15 @@
+void digaOla(String nome, Function callback) {
+  print('Olá, $nome!');
+  callback(nome);
+}
+
+var digaOlaAnonimo = (String nome) {
+  print('Olá, $nome');
+};
+
 void main() {
-  print('Olá, mundo!');
+  digaOla('Lucas', (String nome) {
+    print('Olá, $nome');
+  });
+  digaOlaAnonimo('Lucas Anonimo');
 }
