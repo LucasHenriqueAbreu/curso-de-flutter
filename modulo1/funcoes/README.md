@@ -6,6 +6,7 @@ Dart é uma linguagem verdadeiramente orientada a objetos, então até mesmo fun
 - [Aula](aula/ROTEIRO.md)
 - [Exercícios](aula/EXERCICIOS.md)
   - [Gabarito](aula/gabarito.dart)
+- [Exemplos](exmplosaula/exemplo1.dart)
 
 ## Extras 
 Visite os seguintes recursos para saber mais:
