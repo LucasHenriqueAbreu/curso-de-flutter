@@ -10,4 +10,6 @@ class Personagem {
     required this.escudo,
     required this.velocidade,
   });
+
+  void atacar() {}
 }
