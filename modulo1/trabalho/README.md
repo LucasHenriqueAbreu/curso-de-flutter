@@ -11,22 +11,7 @@ Cada etapa do trabalho deve conter:
 
 ### Etapas do Desenvolvimento
 
-
-#### 1. Criando a classe `Dado` (Value Object)
-
-##### Atributos:
-- `lados`
-
-##### Comportamentos (Métodos):
-- `jogarDado()` Sorteia e retorna um número aleatório entre 1 e o número de lados.
-
-##### Requisitos (Testes):
-- Valor gerado deve estar entre 1 e o número de lados.
-- Um dado de 1 lado deve sempre retornar 1.
-
----
-
-#### 2. Criando a classe `Personagem`
+#### 1. Criando a classe `Personagem`
 
 ##### Atributos:
 - `nome`
@@ -51,6 +36,20 @@ Cada etapa do trabalho deve conter:
 - Atributos devem ser privados, acessados apenas por getters.
 - A vida só pode ser modificada pela ação de defesa (encapsulamento).
 - O escudo deve ser acessível apenas internamente à lógica de defesa.
+
+---
+
+#### 2. Criando a classe `Dado` (Value Object)
+
+##### Atributos:
+- `lados`
+
+##### Comportamentos (Métodos):
+- `jogarDado()` Sorteia e retorna um número aleatório entre 1 e o número de lados.
+
+##### Requisitos (Testes):
+- Valor gerado deve estar entre 1 e o número de lados.
+- Um dado de 1 lado deve sempre retornar 1.
 
 ---
 
