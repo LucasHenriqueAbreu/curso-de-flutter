@@ -16,13 +16,13 @@ Este roteiro apresenta uma sequência de atividades para trabalhar os conceitos 
 
 ### Métodos:
 - `atacar(Personagem oponente, int valorDado)`
-- `receberDano(double dano)`
+- `defender(double dano)`
 - `estaVivo() → bool`
 - `exibirStatus()`
 
 ### Testes:
 - Deve inicializar com os valores corretos
-- Deve reduzir a vida ao receber dano
+- Deve reduzir a vida ao defenter e receber dano
 - Vida não pode ser menor que zero
 - Deve verificar corretamente se está vivo
 - Deve aplicar ataque corretamente ao oponente

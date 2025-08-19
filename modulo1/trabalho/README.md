@@ -1,74 +1,163 @@
-### Trabalho Prático: Jogo de RPG com POO em Dart
+### Descrição do Trabalho
 
-#### Descrição:
-Neste trabalho prático, você será desafiado a construir um sistema de batalha RPG em Dart, aplicando os principais conceitos da Programação Orientada a Objetos. O jogo será em turnos, com personagens que possuem atributos, habilidades e interagem entre si com base em regras definidas. Seu projeto deve conter classes bem estruturadas, uso de herança, encapsulamento, composição e polimorfismo, além de testes unitários cobrindo o comportamento das principais funcionalidades.
+Neste trabalho prático, o objetivo é desenvolver um jogo de RPG por turnos em Dart, utilizando os principais pilares da Programação Orientada a Objetos. O projeto será construído de forma incremental, permitindo aplicar conceitos como classes, encapsulamento, herança, polimorfismo e composição. A cada etapa, serão definidos atributos, comportamentos (métodos) e testes que validam o funcionamento do sistema.
 
----
+O jogo contará com personagens jogáveis (Heróis) e inimigos (Monstros), cada um com atributos próprios. Posteriormente, o sistema será estendido com Raças e Arquétipos, cada um com habilidades especiais, incentivando o uso de abstrações e heranças.
+
+Cada etapa do trabalho deve conter:
+- Implementação da classe ou funcionalidade.
+- Criação de testes unitários.
+- Aplicação do conceito de POO correspondente.
 
 ### Etapas do Desenvolvimento
 
-#### 1. Classe `Personagem`
-- Atributos básicos: nome, vida, velocidade, escudo.
-- Métodos: atacar, receber dano, verificar se está vivo, exibir status.
-- Testes: validação da vida, ataque, e funcionamento dos métodos.
+#### 1. Criando a classe `Personagem`
 
-#### 2. Classe `Dado` (Value Object)
-- Atributo: quantidade de lados.
-- Método: jogarDado() → sorteia um valor entre 1 e o número de lados.
-- Testes: garante sorteio dentro do intervalo permitido.
+##### Atributos:
+- `nome`
+- `vida`
+- `velocidade`
+- `escudo`
 
-#### 3. Classe `Duelo`
-- Gerencia uma batalha entre dois personagens.
-- Define quem começa baseado na velocidade.
-- Executa os turnos até que um personagem perca.
-- Testes: validação do funcionamento do duelo.
+##### Comportamentos (Métodos):
+- `atacar` Ação de atacar outro personagem (oponente), causando dano a ele;
+  - Deve pegar o valor do dado e esse valor será o dano que será enviado para o oponente;
+- `defender` Ação de defender o ataque de outro personagem, recebendo o dano que este oponente causou;
+  - Deve receber o dano e descontar o valor do escudo. Se o resultado for negativo, o dano passa a ser zero; caso contrário, é o valor que será descontado da vida.
+- `estaVivo` Ação que responde se o personagem está vivo ou não.
+- `exibirStatus` Exibe o status atual do personagem.
 
-#### 4. Herança com `Heroi` e `Monstro`
-- Ambas as classes herdam de `Personagem`.
-- Cada uma possui atributos adicionais próprios.
-- Testes: criação, atributos específicos e integração com duelo.
-
-#### 5. Criando a classe abstrata `Raca`
-- Define atributos padrão que influenciam vida, poder e defesa.
-- Crie ao menos 3 subclasses, como: Elfo, Orc, Humano.
-- Cada raça deve ter uma habilidade especial (polimorfismo).
-- Testes: verificação das instâncias e habilidades.
-
-#### 6. Criando a classe abstrata `Arquetipo`
-- Define modificadores de atributos e características do personagem.
-- Crie subclasses como: Guerreiro, Mago, Arqueiro.
-- Cada arquétipo também deve possuir habilidade especial.
-- Testes: validação dos modificadores e habilidades.
-
-#### 7. Integração de Raça e Arquétipo ao Personagem
-- Modifique a classe `Personagem` (ou `Heroi`) para receber `Raca` e `Arquetipo`.
-- Calcule os atributos finais somando os bônus de cada uma.
-- Permita executar as habilidades da raça e do arquétipo.
-- Testes: garantir a composição correta dos atributos.
+##### Requisitos (Testes):
+- Deve inicializar com os valores corretos.
+- Deve reduzir a vida ao defender e receber dano.
+- A vida não pode ser menor que zero.
+- Deve verificar corretamente se está vivo.
+- Deve aplicar ataque corretamente ao oponente.
 
 ---
 
-###  Objetivo Final
-Criar um duelo com personagens completos (herói ou monstro), utilizando raça, arquétipo e testes unitários cobrindo o funcionamento do jogo.
+#### 2. Criando a classe `Dado` (Value Object)
+
+##### Atributos:
+- `lados`
+
+##### Comportamentos (Métodos):
+- `jogarDado()` Sorteia e retorna um número aleatório entre 1 e o número de lados.
+
+##### Requisitos (Testes):
+- Valor gerado deve estar entre 1 e o número de lados.
+- Um dado de 1 lado deve sempre retornar 1.
 
 ---
 
-### Avaliação:
-- Organização do código e uso correto dos conceitos de POO.
-- Estrutura clara e lógica das classes.
-- Testes cobrindo o comportamento esperado.
-- Entendimento demonstrado na apresentação.
+#### 3. Criando a classe `Duelo`
+
+##### Atributos:
+- `jogador1`
+- `jogador2`
+- `dado`
+
+##### Comportamentos (Métodos):
+- `iniciar()` Inicia o duelo entre dois personagens, executando turnos alternados até que um deles perca toda a vida.
+
+##### Requisitos (Testes):
+- O duelo deve terminar com apenas um jogador vivo.
+- O personagem com maior velocidade deve começar.
+- O duelo deve terminar se um jogador tiver pouca vida.
 
 ---
 
-### Observações:
-- Documente bem seu código.
-- Divirta-se explorando os conceitos de herança, composição e polimorfismo!
-- Você pode expandir seu projeto com novos personagens, magias ou fases!
+#### 4. Criando a classe `Heroi`
+
+##### Herda de:
+- `Personagem`
+
+##### Atributos adicionais:
+- `reino`
+- `missao`
+
+##### Comportamentos (Métodos):
+- Os mesmos de `Personagem`, com novos atributos adicionados apenas para armazenar mais informações.
+
+##### Requisitos (Testes):
+- Deve armazenar corretamente os novos atributos.
+- Deve funcionar normalmente como um `Personagem`.
 
 ---
 
-### Preparação para a Apresentação:
-- Explique a estrutura das classes e a motivação das escolhas.
-- Destaque os pontos de POO usados: encapsulamento, herança, composição, polimorfismo.
-- Comente as dificuldades encontradas e como foram superadas.
+#### 5. Criando a classe `Monstro`
+
+##### Herda de:
+- `Personagem`
+
+##### Atributos adicionais:
+- `origem`
+- `tipoCriatura`
+
+##### Comportamentos (Métodos):
+- Os mesmos de `Personagem`, com novos atributos adicionados apenas para armazenar mais informações.
+
+##### Requisitos (Testes):
+- Deve armazenar corretamente os novos atributos.
+- Deve funcionar normalmente como um `Personagem`.
+
+---
+
+#### 6. Criando a classe abstrata `Raca`
+
+##### Atributos:
+- Atributos que influenciam vida, poder e defesa.
+
+##### Comportamentos (Métodos):
+- `habilidadeEspecial()` Método que define o comportamento único de cada raça (aplicando polimorfismo).
+
+##### Exemplo de subclasses:
+- `Elfo`, `Orc`, `Humano`
+
+##### Requisitos (Testes):
+- Criação correta das instâncias.
+- Verificação da aplicação de bônus.
+- Execução das habilidades específicas.
+
+---
+
+#### 7. Criando a classe abstrata `Arquetipo`
+
+##### Atributos:
+- Modificadores de atributos como ataque, escudo e velocidade.
+
+##### Comportamentos (Métodos):
+- `habilidadeEspecial()` Método que define o comportamento único de cada arquétipo (aplicando polimorfismo).
+
+##### Exemplo de subclasses:
+- `Guerreiro`, `Mago`, `Arqueiro`
+
+##### Requisitos (Testes):
+- Validação dos modificadores de atributos.
+- Execução das habilidades específicas.
+
+---
+
+#### 8. Integração de `Raca` e `Arquetipo` ao `Personagem`
+
+##### Atributos:
+- `raca`
+- `arquetipo`
+
+##### Comportamentos (Métodos):
+- No construtor: incorporar os bônus da raça e do arquétipo ao criar o personagem.
+- Permitir a execução das habilidades herdadas de cada uma.
+
+##### Requisitos (Testes):
+- Composição correta dos atributos finais.
+- Funcionamento esperado das habilidades.
+- Garantia de compatibilidade com o sistema de duelo.
+
+---
+
+#### 🧪 Teste de Integração (opcional)
+
+##### Objetivo:
+- Criar duelo entre `Heroi` e `Monstro` com dado fixo.
+- Verificar se o duelo termina corretamente.
+- Validar se os atributos adicionais e habilidades funcionam como esperado.
