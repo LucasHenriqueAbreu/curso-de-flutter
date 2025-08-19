@@ -33,6 +33,9 @@ Cada etapa do trabalho deve conter:
 - A vida não pode ser menor que zero.
 - Deve verificar corretamente se está vivo.
 - Deve aplicar ataque corretamente ao oponente.
+- Atributos devem ser privados, acessados apenas por getters.
+- A vida só pode ser modificada pela ação de defesa (encapsulamento).
+- O escudo deve ser acessível apenas internamente à lógica de defesa.
 
 ---
 
@@ -82,6 +85,7 @@ Cada etapa do trabalho deve conter:
 ##### Requisitos (Testes):
 - Deve armazenar corretamente os novos atributos.
 - Deve funcionar normalmente como um `Personagem`.
+- Os atributos adicionais devem ser encapsulados e acessados por meio de getters.
 
 ---
 
@@ -100,6 +104,7 @@ Cada etapa do trabalho deve conter:
 ##### Requisitos (Testes):
 - Deve armazenar corretamente os novos atributos.
 - Deve funcionar normalmente como um `Personagem`.
+- Os atributos adicionais devem ser encapsulados e acessados por meio de getters.
 
 ---
 
@@ -118,6 +123,7 @@ Cada etapa do trabalho deve conter:
 - Criação correta das instâncias.
 - Verificação da aplicação de bônus.
 - Execução das habilidades específicas.
+- Os atributos modificadores devem ser privados e utilizados somente nas lógicas internas.
 
 ---
 
@@ -135,6 +141,7 @@ Cada etapa do trabalho deve conter:
 ##### Requisitos (Testes):
 - Validação dos modificadores de atributos.
 - Execução das habilidades específicas.
+- Os atributos modificadores devem ser privados e utilizados somente nas lógicas internas.
 
 ---
 
@@ -152,10 +159,12 @@ Cada etapa do trabalho deve conter:
 - Composição correta dos atributos finais.
 - Funcionamento esperado das habilidades.
 - Garantia de compatibilidade com o sistema de duelo.
+- Os bônus de raça e arquétipo devem ser aplicados no construtor sem expor atributos diretamente.
+- As habilidades especiais devem ser acessadas somente via método público.
 
 ---
 
-#### 🧪 Teste de Integração (opcional)
+#### Teste de Integração (opcional)
 
 ##### Objetivo:
 - Criar duelo entre `Heroi` e `Monstro` com dado fixo.
