@@ -4,6 +4,7 @@ As classes em Dart são fundamentais para organizar e estruturar o código. Perm
 
 - [Aula](aula/README.md)
 - [Exercícios](aula/exercicios/EXERCICIOS.md)
+- [Exempls](exemplos/exemplo.dart)
 
 Para aprender mais sobre classes em Dart, confira os seguintes recursos:
 

@@ -1,73 +1,74 @@
-### Trabalho Prático: Análise Financeira em Dart
+### Trabalho Prático: Jogo de RPG com POO em Dart
 
 #### Descrição:
-Neste trabalho prático, você será desafiado a criar um programa em Dart para realizar análise financeira com base em dados de receitas e despesas da empresa. Seu programa deverá ler os dados financeiros de arquivos de texto, calcular totais e gerar um relatório consolidado.
+Neste trabalho prático, você será desafiado a construir um sistema de batalha RPG em Dart, aplicando os principais conceitos da Programação Orientada a Objetos. O jogo será em turnos, com personagens que possuem atributos, habilidades e interagem entre si com base em regras definidas. Seu projeto deve conter classes bem estruturadas, uso de herança, encapsulamento, composição e polimorfismo, além de testes unitários cobrindo o comportamento das principais funcionalidades.
 
-#### Arquivos de Entrada:
-Os dados financeiros estão armazenados em arquivos de texto com o seguinte formato:
+---
 
-```txt
-arquivo1.txt:
-Data, Receitas, Despesas
-01/01/2022, 5000, 3000
-02/01/2022, 6000, 3500
-03/01/2022, 7000, 4000
-04/01/2022, 5500, 3800
-05/01/2022, 8000, 4500
-```
+### Etapas do Desenvolvimento
 
-```txt
-arquivo2.txt:
-Data, Receitas, Despesas
-06/01/2022, 7200, 4200
-07/01/2022, 6800, 3800
-08/01/2022, 7500, 4300
-09/01/2022, 6200, 3700
-10/01/2022, 8000, 4800
-```
+#### 1. Classe `Personagem`
+- Atributos básicos: nome, vida, velocidade, escudo.
+- Métodos: atacar, receber dano, verificar se está vivo, exibir status.
+- Testes: validação da vida, ataque, e funcionamento dos métodos.
 
-#### Arquivo de Saída:
-O relatório consolidado com os totais calculados será gerado em um novo arquivo de texto com o seguinte formato:
+#### 2. Classe `Dado` (Value Object)
+- Atributo: quantidade de lados.
+- Método: jogarDado() → sorteia um valor entre 1 e o número de lados.
+- Testes: garante sorteio dentro do intervalo permitido.
 
-```txt
-relatorio.txt:
-Relatório Financeiro da Empresa
+#### 3. Classe `Duelo`
+- Gerencia uma batalha entre dois personagens.
+- Define quem começa baseado na velocidade.
+- Executa os turnos até que um personagem perca.
+- Testes: validação do funcionamento do duelo.
 
-Período Analisado: 01/01/2022 - 10/01/2022
+#### 4. Herança com `Heroi` e `Monstro`
+- Ambas as classes herdam de `Personagem`.
+- Cada uma possui atributos adicionais próprios.
+- Testes: criação, atributos específicos e integração com duelo.
 
-Total de Receitas: R$ 64.700,00
-Total de Despesas: R$ 36.900,00
-Lucro Total: R$ 27.800,00
-```
+#### 5. Criando a classe abstrata `Raca`
+- Define atributos padrão que influenciam vida, poder e defesa.
+- Crie ao menos 3 subclasses, como: Elfo, Orc, Humano.
+- Cada raça deve ter uma habilidade especial (polimorfismo).
+- Testes: verificação das instâncias e habilidades.
 
-#### Testando com Outras Informações:
-Para testar o programa com outras informações nos arquivos de entrada, você pode criar novos arquivos de texto seguindo o mesmo formato fornecido acima. Certifique-se de incluir os dados de receitas e despesas para cada dia no formato correto. Depois de criar os novos arquivos, execute o programa novamente para gerar um novo relatório com os totais calculados.
+#### 6. Criando a classe abstrata `Arquetipo`
+- Define modificadores de atributos e características do personagem.
+- Crie subclasses como: Guerreiro, Mago, Arqueiro.
+- Cada arquétipo também deve possuir habilidade especial.
+- Testes: validação dos modificadores e habilidades.
 
-#### Fluxo do Programa:
-1. Leia os dados financeiros de cada arquivo de texto e armazene-os em uma estrutura de dados adequada.
-2. Calcule os totais de receitas, despesas e lucro para cada período com base nos dados fornecidos nos arquivos.
-3. Gere um relatório consolidado com os totais calculados e escreva-o em um novo arquivo de texto.
-4. O relatório deve incluir o período analisado, os totais de receitas, despesas e lucro.
+#### 7. Integração de Raça e Arquétipo ao Personagem
+- Modifique a classe `Personagem` (ou `Heroi`) para receber `Raca` e `Arquetipo`.
+- Calcule os atributos finais somando os bônus de cada uma.
+- Permita executar as habilidades da raça e do arquétipo.
+- Testes: garantir a composição correta dos atributos.
 
-#### Avaliação:
-- A avaliação será baseada na apresentação individual do trabalho.
-- Prepare-se para explicar o funcionamento do seu programa, destacando as dificuldades enfrentadas, como foram resolvidas, o que aprendeu durante o desenvolvimento e os pontos que ainda não foram totalmente compreendidos.
-- O professor atribuirá pontos com base no entendimento demonstrado durante a apresentação:
-  - Nenhum entendimento: 0 pontos;
-  - Baixo entendimento: 3 pontos;
-  - Médio entendimento: 5 pontos;
-  - Entendimento razoável: 7 pontos;
-  - Entendimento perfeito: 10 pontos.
+---
 
-#### Observações:
-- Experimente, explore e divirta-se enquanto desenvolve o projeto. Este é um ótimo exercício para praticar diferentes conceitos de programação e aplicá-los em um projeto prático.
-- Lembre-se de documentar seu código adequadamente e adicionar comentários explicativos para facilitar a compreensão e apresentação.
-- Boa sorte e mãos à obra!
+###  Objetivo Final
+Criar um duelo com personagens completos (herói ou monstro), utilizando raça, arquétipo e testes unitários cobrindo o funcionamento do jogo.
 
-### Dúvidas ou Dificuldades:
-Se tiver alguma dúvida ou encontrar dificuldades durante o trabalho, não hesite em pedir ajuda ao professor ou colegas de classe. A colaboração e o compartilhamento de conhecimento são essenciais para o aprendizado e o crescimento pessoal.
+---
+
+### Avaliação:
+- Organização do código e uso correto dos conceitos de POO.
+- Estrutura clara e lógica das classes.
+- Testes cobrindo o comportamento esperado.
+- Entendimento demonstrado na apresentação.
+
+---
+
+### Observações:
+- Documente bem seu código.
+- Divirta-se explorando os conceitos de herança, composição e polimorfismo!
+- Você pode expandir seu projeto com novos personagens, magias ou fases!
+
+---
 
 ### Preparação para a Apresentação:
-Para se preparar para a apresentação do trabalho, certifique-se de revisar e praticar os seguintes pontos:
-- Explicação clara das funcionalidades implementadas no programa e dos resultados da análise financeira.
-- Discussão sobre as dificuldades enfrentadas, como foram resolvidas
+- Explique a estrutura das classes e a motivação das escolhas.
+- Destaque os pontos de POO usados: encapsulamento, herança, composição, polimorfismo.
+- Comente as dificuldades encontradas e como foram superadas.

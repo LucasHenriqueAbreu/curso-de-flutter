@@ -7,11 +7,3 @@ Encapsulamento é um dos pilares da programação orientada a objetos (POO) e se
 ## Conteúdos Relacionados
 - [Aula](aula/ROTEIRO.md)
 - [Exercícios](aula/EXERCICIOS.md)
-  - [Gabarito](aula/gabarito.dart)
-- [Exemplos](exemplosaula/exemplo1.dart)
-
-## Extras 
-Visite os seguintes recursos para saber mais:
-- [Encapsulamento em Dart (GeeksForGeeks)](https://www.geeksforgeeks.org/encapsulation-in-dart/)
-- [Documentação oficial do Dart sobre classes](https://dart.dev/guides/language/language-tour#classes)
-- [Vídeo: Encapsulamento com Dart](https://www.youtube.com/watch?v=OZzHZ7qSkj4)

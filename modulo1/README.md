@@ -58,15 +58,20 @@ Vamos começar explorando os conceitos básicos do Dart e construir uma base só
    Vamos estudar o uso de async / await em Dart para escrever código assíncrono de forma mais clara e concisa.
 
 
-## Trabalho do módulo
-### Análise Financeira em Dart
-Neste trabalho prático, você será desafiado a criar um programa em Dart para realizar análise financeira com base em dados de receitas e despesas da empresa. Seu programa deverá ler os dados financeiros de arquivos de texto, calcular totais e gerar um relatório consolidado.
-[Mais informações](trabalho/README.md)
 
-## Atividade de revisão
-### Projeto de Cálculo de Média de Alunos
-Desenvolver um pequeno aplicativo em Dart que calcula a média de notas dos alunos.
-[Mais informações](revisao/README.md)
+## Trabalho do módulo
+### Jogo de RPG em Dart
+
+Neste trabalho prático, você será desafiado a aplicar os conceitos de programação orientada a objetos aprendidos durante o módulo para construir um jogo de RPG baseado em turnos. O jogo será desenvolvido em Dart e deve conter personagens com atributos como vida, velocidade, escudo e métodos de ataque e defesa.
+
+Você irá utilizar conceitos como:
+- Criação de classes e objetos
+- Encapsulamento com getters e setters
+- Herança entre classes como `Herói` e `Monstro`
+- Composição com dados auxiliares como o `Dado` para sorteios
+- Testes unitários para verificar o funcionamento das classes
+
+[Mais informações](trabalho/README.md)
 
 
 ## Extra:
