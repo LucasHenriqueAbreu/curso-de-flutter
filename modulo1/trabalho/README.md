@@ -12,7 +12,7 @@ Cada etapa do trabalho deve conter:
 ### Etapas do Desenvolvimento
 
 
-#### 2. Criando a classe `Dado` (Value Object)
+#### 1. Criando a classe `Dado` (Value Object)
 
 ##### Atributos:
 - `lados`
